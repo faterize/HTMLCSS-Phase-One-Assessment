@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+     background-color: white;
+     height: 100vh;
+     width: 100%;
+     font-family: Epilogue;
+}
+.header { 
+     display: flex;
+    
+    
+}
+.nav1 {
+     margin-left: 12.7%;
+     color: #777777;
+     padding-top: 2%;
+}
+.nav2 { 
+     margin-left: 90vh;
+     padding: 0 6%;
+     padding-top: 1.7%;
+}
+.login { 
+     padding-right: 1.8em;
+     color: #777777;
+     text-decoration: none;
+}
+.register { 
+     border-radius: 0.7em;
+     padding: 0.7em;
+     color: black;
+     background-color: white;
+     height: 5vh;
+     width: 45%;
+     font-size: 0.7em;
+}
+.features {
+     padding-left: 0.8em;
+     text-decoration: none;
+}
+.company { 
+     padding-left: 0.8em;
+     text-decoration: none;
+}
+.careers { 
+     padding-left: 0.8em;
+     text-decoration: none;
+}
+.about { 
+     padding-left: 0.8em;
+     text-decoration: none;
+}
+.snap { 
+     display: inline;
+     position: absolute;
+     margin-top: 0.4em;
+     margin-left: 0.9em;
+     
+}
+.content { 
+     margin: 7vh 30vh;
+     display: flex;
+     justify-content: space-between;
+     padding: 0 60;
+     
+}
+.remote { 
+     font-family: Epilogue;
+     font-size: 8vh;
+     font-weight: bolder;
+}
+.button { 
+     background-color: black;
+     border-radius: 0.9em;
+     color: white;
+     padding: 1em;
+     font-family: Epilogue;
+     border: none;
+     margin-top: 1.4em;
+     width: 20vh;
+     font-weight: 500 ;
+}
+.remote-work {
+     margin-top: 0vh;
+}
+.hero-img { 
+     padding-bottom: 2.8em;
+}
+h3 { 
+     color: #777777;
+     height: 4.6em;
+}
+
+a { 
+     color: #777777;
+}
+.images { 
+     display: flex;
+     position: absolute;
+     height: 1.5em;
+     width: 1.7em;
+     margin-top: 26em;
+}
+.images img { 
+     padding-left: 20px;
+}
+
+@media(max-width: 400px) { 
+     .header { 
+          display: flex;
+          flex-direction: column;
+     }
+}
+
+/* Mobile screen (max-width: 600px) */
+@media (max-width: 600px) {
+  .header {display: flex;
+    flex-direction: column;
+  }
+  .nav1 {
+     display: flex;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .nav2 {
+     display: flex;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .content {
+     display: flex;
+    flex-direction: column;
+    margin: 2vh 2vh;
+  }
+  .remote-work {
+    margin-top: 2vh;
+  }
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+  .images {
+    margin-top: 2vh;
+  }
+}
+
+/* Tablet screen (max-width: 900px) */
+@media (max-width: 900px) {
+  .header {
+    flex-direction: row;
+  }
+  .nav1 {
+    margin-left: 5%;
+  }
+  .nav2 {
+    margin-left: 5%;
+  }
+  .content {
+    flex-direction: row;
+    margin: 4vh 4vh;
+  }
+  .remote-work {
+    margin-top: 4vh;
+  }
+  .hero-img {
+    width: 50%;
+    height: auto;
+  }
+  .images {
+    margin-top: 4vh;
+  }
+}
+
+/* Desktop screen (min-width: 901px) */
+@media (min-width: 901px) {
+}
